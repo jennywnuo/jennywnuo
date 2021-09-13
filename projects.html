@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny Wang's Engineering Portfolio | Projects</title>
+    <link rel="icon" href="img/iconj.png">
+
+   <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=EB+Garamond:wght@500&family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+  </head>
+<body>
+<!--Navbar-->
+
+
+    <header>
+
+          <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand homelink" href="engineering.html">jenny wang</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" >
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+
+
+           <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+             <ul class="navbar-nav" >
+               <li class="nav-item">
+                 <a class="nav-link" href="aboutme.html">about</a>
+                </li>
+              <li class="nav-item">
+                 <a class="nav-link active" href="projects.html">projects</a>
+               </li>
+
+               <li class="nav-item">
+                 <a class="nav-link" href="experience.html">work experience</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="resume.html">resume</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="contact.html">contact</a>
+               </li>
+              </ul>
+            </div>
+
+
+
+
+          </nav>
+
+
+
+    </header>
+
+
+
+<div class="container aboutcap" id="about">
+
+  <br>
+  <br>
+  <br>
+  <h1>My Projects!</h1>
+  <p>(In order from most recent to least)</p>
+
+  <br>
+
+
+
+    <div class="row">
+             <div class="col-md-6">
+               <h2 class="project-title">Electron Affinity Game Project</h2>
+               <div class="gray">
+               <p>Course: AP Computer Science Applications</p>
+               <p>Duration: Three Weeks (November, 20 2020 - December, 10 2020)</p>
+               <p>Objective: The goal of this project was to design and build an educational game using Java on Greenfoot. The objective is to combine AP Computer Science Application course princioples with applications. </p>
+               <p>Type of Project: Group Project (four people)</p>
+               </div>
+               <div style="padding-top:25px;">
+               <p>My primary role in the development of the Exciting Electrons! game was working on ensuring that the Bohr model presented itself accurately when the user was prompted to move on to a different model. In a Bohr model with two shells, there can exist up to 10 electrons total (2 core and 2 valence), but for realistic purposes (a full valence shell is extremely difficult to remove an electron from), our Bohr models in the game only used 9 electrons total (including core and valence electrons). One of the main challenges faced throughout my design process was after our team realized that the core electrons were also getting removed by the photon if it landed on the inner shell after our first iteration. This is extremely unrealistic, considering the educational standard that our game is held by. Thus, I separated the core electrons and valence electrons into different classes, when they used to all be in the same class. Therefore, I solved this problem by instantiating the core electrons separately from the valence electrons. </p>
+               </div>
+           </div>
+           <div class="card col-md-6" style="padding:0px;">
+                <img id="project-img" height="400" width="auto" src="electron.png"  alt="">
+                <img id="project-img" height="320" width="auto" src="electron-group.png"  alt="">
+            </div>
+           </div>
+
+                        <a  href="https://docs.google.com/document/d/1YadnAc2OGrOkoE_Zdr28fGdi84LsevzdbxeEzTt6qwU/edit?usp=sharing" target="_blank" role="button">Click here to view the project documentation</a>
+                        <br>
+                        <a href="https://docs.google.com/document/d/1_tr2DHHvci7xOBcS-qM6L2GsrhZLOTyWo0xoyYR-boc/edit?usp=sharing" target="_blank" role="button">Click here to view the project rubric</a>
+
+        <br>
+        <br>
+
+        <br>
+        <br>
+
+
+
+      <div class="row">
+                     <div class="col-md-6">
+                       <h2 class="project-title">Modeling a Virus Greenfoot Project</h2>
+                       <div class="gray">
+                       <p>Course: AP Computer Science Applications</p>
+                       <p>Duration: Two Weeks (July, 1 2020 - July, 20 2020)</p>
+                       <p>Objective: The goal of this project was to design and build an educational environment using Java on Greenfoot. It should demonstrate an AP concept on Java programming. The objective of the model is to show how different percentages of people are social distancing will alter the curve of people are being infected.</p>
+                       </div>
+                       <div style="padding-top:25px;">
+                       <p>My primary role in the development of the model for the virus was to build and expand on video tutorial that our class followed throughout the summer break. As a team, Ella and I wanted to make people who social distance not come in contact with others. Additionally, we wanted to model a second wave of the epidemic in which the population would gain more knowledge about the virus and take more precautions. At the end, what we accomplished was: Modeling how different percentages of people that are social distancing will alter the curve of people that are being infected. Additionally, modeling a realistic second wave of the epidemic means that naturally, as isolation regulations are slowly lifted, people who leave their homes will be more likely to take precautions, thus, this curve should look flatter than the first curve due to the limited/slower spread of the virus the second time around.  </p>
+                       </div>
+                   </div>
+                   <div class="card col-md-6" style="padding:0px;">
+                        <img id="project-img" height="350" width="auto" src="virus-code.png"  alt="">
+                        <br>
+                        <img id="project-img" height="320" width="auto" src="virus-screen.png"  alt="">
+                    </div>
+                   </div>
+
+                   <a  href="https://drive.google.com/file/d/1M4LTU1jF19zerQBw6BMmoJQmtHr11m82/view" target="_blank" role="button">Click here to view the project video</a>
+                   <br>
+                   <a href="https://drive.google.com/file/d/1Gn2M7ZZr1c2tiqbFkPOvH2sgQ5ftdwWb/view" target="_blank" role="button">Click here to view the project code</a>
+
+
+                <br>
+                <br>
+
+                <br>
+                <br>
+
+
+
+  <div class="row" id="signin">
+           <div class="col-md-6">
+             <h2 class="project-title"><a class ="project-title" target="_blank" href="https://jennywnuo.github.io/aslsignin/Entrepreneurship-Website/index.html">Featured: Sign-In ASL App</a></h2>
+             <div class="gray">
+             <p>Course: AP Computer Science Principles (For Entrepreneurship Showcase)</p>
+             <p>Duration: Two Weeks (May, 1 2020 - May, 20 2020)</p>
+             <p>Objective: The objective of this app is to connect the hearing and non-hearing communities by implementing machine learning and data science to translate cues in American Sign Language to English.</p>
+             <p>Type of Project: Group Project (three people)</p>
+             <p style="font-size:0.8rem; color:#cf9797"><b>*Entered in 2020 Entrepreneurship Showcase (won first place)</b></p>
+             </div>
+             <div style="padding-top:25px;">
+             <p>
+
+               Throughout this project, I worked primarily on marketing, research as well as assisting in technical needs. To cater to our audiences, I coded a website explaining the mission of our app. During this project, my teammates and I worked asynchronously from our homes. We scheduled meetings to debrief over our needs and To-Dos. One of my additional responsibilities on this project was to write the script and produce our video to advertise our product. Due to the fact that this was a project that we planned on submitting into the Entrepreneurship Showcase. One of the main challenges of this project was coordination and time management. Once again, due to the virtual nature of the project, as well as the fact that many of my teammates had personal responsibilities to attend to, it was often difficult setting up meeting times and space. In addition to marketing, research and technical needs, I also contributed to the final documentation of the project.
+               </p>
+             </div>
+
+         </div>
+         <div class="card col-md-6" style="padding:0px;">
+              <video src="img/demo.mov" Pluginspage="https://support.apple.com/quicktime" width="auto" height="350" CONTROLLER="true" LOOP="false" AUTOPLAY="true" name="ASL VIDEO" muted="true"></video>
+              <br>
+              <video src="img/demo1.mov" Pluginspage="https://support.apple.com/quicktime" width="auto" height="350" CONTROLLER="true" LOOP="false" AUTOPLAY="true" name="ASL VIDEO" muted="true"></video>
+
+          </div>
+         </div>
+
+           <a  href="https://docs.google.com/document/d/1n171kxXYeYIcs-_KTgMF5tZ0biNFNzWkES3RQXKxOgQ/edit?usp=sharing" target="_blank" role="button">Click here to view the project documentation</a>
+           <br>
+           <a  href="https://docs.google.com/presentation/d/1n7YedURbjjdCoFu9zHi4gie-DT3aaiiSm-4jKnuqVGU/edit?usp=sharing" target="_blank" role="button">Click here to view the showcase presentation</a>
+
+           <br>
+           <a href="https://drive.google.com/file/d/1UWOvGkWQkHN7cw8Mue-0B9OW47q5tprW/view?usp=sharing" target="_blank" role="button">Click here to view the judge's feedback</a>
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+  <div class="row">
+           <div class="col-md-6">
+             <h2 class="project-title">Image Manipulation Project</h2>
+             <div class="gray">
+             <p>Course: AP Computer Science Principles</p>
+             <p>Duration: Two Weeks (March, 23 2020 - March, 31 2020)</p>
+             <p>Objective: The goal of this project is to use Python to manipulate images and edit them and to use image manipulation to convey a message and solve a problem. This project demonstrates knowledge on algorithms in Python. </p>
+             <p>Type of Project: Partner Project (two people)</p>
+             </div>
+             <div style="padding-top:25px;">
+             <p>This is by far one of my favorite projects of the year. This project was inspired by abstract artists, and my partner and I created two different options in total, one inspired by Picasso and the other inspired by Kandinsky. Though it was challenging collaborating from home, I think it was overall an interesting experience. One of the first challenges I encountered throughout this project was applying images and shapes on top of the photo rather than using a mask to create a border. To solve this problem, I researched how to draw different geometric shapes in Python. There had to be a lot of communication between my partner and I because we had to make sure neither one of us was deleting something that the other person was working on. To combat this, we created many different versions and test files, and clearly labeled them in the workspace to not cause conflict. We tested code on our individual test files and combined them onto the main file after finding the solution. The freedom of this assignment and abundance of time due to shelter in place allowed me to explore and experiment with code that we didn't cover in class. I researched color manipulation and edited the images to reduce or increase saturation. </p>
+             </div>
+
+         </div>
+         <div class="card col-md-6" style="padding:0px;">
+           <br>
+              <img id="project-img" height="360" width="auto" src="img/kadinksy.png"  alt="">
+              <br>
+              <img id="project-img" height="360" width="auto" src="img/picasso.png"  alt="">
+          </div>
+         </div>
+
+           <a  href="https://docs.google.com/presentation/d/1x7VNK_aRS7ImWKuyKwZi372NrPvDyUxC_hr-VR-TRNA/edit?usp=sharing" target="_blank" role="button">Click here to view the project presentation</a>
+
+           <br>
+           <a href="https://docs.google.com/document/d/1D_Rs0BM0ieISGGJv1Cw6lza49LUJjt7-fxF2wH6WITc/edit?usp=sharing" target="_blank" role="button">Click here to view the project rubric</a>
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+
+
+  <div class="row">
+           <div class="col-md-6">
+             <h2 class="project-title">Scratch Project</h2>
+             <div class="gray">
+             <p>Course: AP Computer Science Principles</p>
+             <p>Duration: One Week (September, 3 2019 - September, 11 2019)</p>
+             <p>Objective: The goal of this project is to design and develop an interactive game on Scratch using block code. In this Platformer the user can fundamentally control what happens using the keyboard or mouse and includes multiple states as well as an overall objective. </p>
+             <p>Type of Project: Partner Project (two people)</p>
+             </div>
+             <div style="padding-top:25px;">
+             <p>Throughout this project, one important aspect of the creative process was the ability to collaborate and combine ideas when working with a partner. During our brainstorming session, I thought that it would be more productive to include every single idea, and not to dismiss any of them until there was a clear reason to do so in the end. This helped my partner and I stay open-minded and aware of all our different options. What I found most useful is to encourage effective communication while working in my team. This helped us navigate challenges and difficulties such as scheduling, planning, code errors and more. In this project, my responsibilities included the part of the code and comments, which was done using pair coding. One of the main challenges my partner and I faced during our process was figuring out how to incorporate realistic physics into our game, since it was a platformer game. We resolved the issue by researching online and analyzing code that already exists. Then, we edited the code so that we could incorporate the same aspects into our version. Throughout the project, I contributed to the design and documentation of the game as well as maintained effective communication between both partners. </p>
+             </div>
+         </div>
+         <div class="card col-md-6" style="padding:0px;">
+              <iframe src="https://scratch.mit.edu/projects/347021486/embed" allowtransparency="true" style="padding-bottom:2rem" width="auto" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+              <img id="project-img" height="260" width="auto" src="img/scratch.png"  alt="">
+          </div>
+         </div>
+
+           <a  href="https://docs.google.com/document/d/1n_6bi-MOBdNoX9GZ_2o1SN9cfz7BWoAOkXTYhOkyJhY/edit?usp=sharing" target="_blank" role="button">Click here to view the project documentation</a>
+           <br>
+           <a href="https://docs.google.com/document/d/1psLuja5SFjgwv3NfDHqOz1io4xmLZGeY9R1i_g98POI/edit?usp=sharing" target="_blank" role="button">Click here to view the project rubric</a>
+
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+  <div class="row">
+           <div class="col-md-6">
+             <h2 class="project-title">Aerodynamic Design Project</h2>
+             <div class="gray">
+             <p>Course: Honors Principles of Engineering</p>
+             <p>Duration: Two Weeks (January, 18 2019 - January, 24 2019)</p>
+             <p>Objective: The objective of this project was to understand which designs would produce projectiles that would fly the furthest given the following constraints. In order to accomplish this, we were tasked with designing, creating and testing two prototypes of rockets with the given materials, launched at a specific PSI with a chosen angle to evaluate its distance traveled.</p>
+             <p>Type of Project: Group Project (three people)</p>
+             </div>
+             <div style="padding-top:25px;">
+             <p>In this project, I overcame challenges in order to brainstorm effective designs that will be able to fly the furthest. Due to the fact that this project was largely individual based, I designed two different rockets with variations to the shape of the fin. In class, I finished building my first rocket in a day and spent the rest of the work time perfecting the design by testing it. My first rocket flew relatively far in comparison to the rest of my classmates. After the first launch, I noticed that thinner rockets that were wrapped tightly around the PVC pipe tended to fly further because its shape allows it to build up more pressure. One of the main challenges I faced during this project was contemplating how to make my rocket thinner without being too thin to fit around the pipe. I also needed to figure out how to make the tip of the rocket as small as possible so that it minimizes the air resistance. Overall, my responsibilities in this project were far greater than a typical group project in the class because I constructed two rocket prototypes and worked on the documentation for both designs. </p>
+             </div>
+
+         </div>
+         <div class="card col-md-6" style="padding:0px;">
+           <br>
+              <video src="img/theplane.mov" Pluginspage="https://support.apple.com/quicktime" width="auto" height="350" CONTROLLER="true" LOOP="false" AUTOPLAY="true" name="MY VIDEO" muted="true"></video>
+              <br>
+              <img id="project-img" height="360" width="auto" src="img/plane.jpg"  alt="">
+          </div>
+         </div>
+
+           <a  href="https://docs.google.com/document/d/1_PG4Iv6WBizShTty8OcovRYDVOSmRoeR9Bra02Z86F4/edit?usp=sharing" target="_blank" role="button">Click here to view the project documentation</a>
+
+           <br>
+           <a href="https://docs.google.com/document/d/15RNHFO13kC5Eaf2XxiPBL_V96lvOg3WVeRslAd6lucI/edit?usp=sharing" target="_blank" role="button">Click here to view the project rubric</a>
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+
+  <div class="row">
+           <div class="col-md-6">
+             <h2 class="project-title">Solar Hydrogen Vehicle Project</h2>
+             <div class="gray">
+             <p>Course: Honors Principles of Engineering</p>
+             <p>Duration: Two Weeks (November, 1 2018 - November, 16 2018)</p>
+             <p>Objective: The goal of this project is to design, build and test a prototype to gain the power and speed capabilities of using solar or hydrogen power.</p>
+             <p>Type of Project: Group Project (four people)</p>
+             <p>Type of Project: Partner Project (two people)</p>
+             </div>
+             <div style="padding-top:25px;">
+             <p>In this project, my group and I overcame challenges in order to build a fast and efficient vehicle. This vehicle needed to cover a distance of one meter over a short period of time using four different power configurations such as one hydrogen fuel cell, two hydrogen fuel cells, one solar cell and two solar cells. I contributed to the design of the project and created the chain and sprocket system that allowed for the car to move. I also built the casing that held each of the two hydrogen fuel cells. One of the main challenges include the spacing on the vehicle.We had to change our design in the middle of the project in order to fit all four power configurations onto the car. This meant that we needed to add a second story. The second level on the car comes with additional weight, therefore force was something we needed to consider and take into account. I contributed to the documentation, the modifications, initial design as well as the initial design paragraph. I also updated my individual notebook and inputted the group responsibilities in the gantt chart. </p>
+             </div>
+
+         </div>
+         <div class="card col-md-6" style="padding:0px;">
+           <br>
+              <img id="project-img" height="360" width="auto" src="img/solarhydrogen.jpg"  alt="">
+              <br>
+              <img id="project-img" height="360" width="auto" src="img/hydrogensketch.jpg"  alt="">
+              <br>
+          </div>
+         </div>
+
+           <a  href="https://docs.google.com/document/d/19Olog4_kQtWAi8Es9h3d52d_mVfhgxvtVSHWZXbzdK4/edit?usp=sharing" target="_blank" role="button">Click here to view the project documentation</a>
+
+           <br>
+           <a href="https://docs.google.com/document/d/1_VocQm3YMAAiQZOsmvtXrfCCIgRDv-b9GVJCA9RvdBE/edit?usp=sharing" target="_blank" role="button">Click here to view the project rubric</a>
+      <br>
+      <br>
+
+      <br>
+      <br>
+
+
+
+</div>
+
+
+
+<div class="footer" id = "social">
+        <div class="container text-left">
+             <small class="copyright">jennywnuo@gmail.com</small>
+            <a target="_blank" class = "footlink" href="https://www.instagram.com/jennywnuo/"><img class="social-link" src="img/instagram.png"></a>
+            <a target="_blank" class = "footlink" href="https://github.com/jennywnuo"><img class="social-link" src="img/github.png"></a>
+            <a target="_blank" class = "footlink" href="https://www.linkedin.com/in/jennywnuo/"><img class="social-link" src="img/linkedin.png"></a>
+
+        </div><!--End container-->
+
+         <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button">back to top</a>
+
+    </div>
+    </div>
+
+</body>
+</html>
