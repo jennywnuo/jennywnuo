@@ -10,6 +10,20 @@ p {
   color: #5e5e5e;
 }
 
+ion-icon {
+  position:relative;
+  top:2px;
+  right:2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li, p {
+  padding: 0px; 
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
 }
