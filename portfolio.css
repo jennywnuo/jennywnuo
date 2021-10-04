@@ -1,310 +1,184 @@
-
-html, body { 
-  height: 100%; 
-  width: 100%;
-}
-
 body {
-  overflow-x: hidden !important;
-  font-family: 'Jost', sans-serif;
-  background-color: #F4F3EE;
-  width: 100%; 
-
+  background: #fafafa;
 }
 
-/*-- Navbar --*/
-
-div {
-  box-sizing: border-box;
-  overflow-x: hidden !important;
-  }
-
-
-.nav-link {
-  text-decoration:none; 
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #5e5e5e;
 }
-
-
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-.navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
-}
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
-}
-
-
-.homelink {
-  text-shadow:0.1rem 0.1rem 0.8rem black;
-  padding-bottom: 0.5rem;
-  font-family: 'Alata', sans-serif;
-  text-decoration: none;
-  text-transform:uppercase;
-}
-
-
-/*-- Landing Page --*/
-
-.caption {
-  top:50%;
-  z-index:1;
-  width:100%;
-  max-width:100%;
-  position: absolute;
-  
-}
-
-.caption h1 {
-  font-size: 3.8rem; 
-  padding-bottom: 0.5rem;
-  color:white;
-  text-shadow:0.1rem 0.1rem 0.8rem black;
-  font-family: 'Alata', sans-serif;
-}
-
-.caption h5 {
-  
-  font-family: 'Montserrat', sans-serif; 
-}
-
-
-.aboutcap h1 {
-  font-size: 3.8rem; 
-  padding-bottom: 0.5rem;
-  font-family: 'Alata', sans-serif;
-}
-
-.aboutcap h5 {
-  font-family: 'Montserrat', sans-serif; 
-}
-
-
-.btn-outline-light {
-  border-width:medium;
-  border-radius: 0;
-  padding:0.6rem 1.3rem;
-  font-size: 1.1rem;
-}
-
-
-.btn-secondary {
-  border-width:medium;
-  border-radius: 0;
-  padding:0.6rem 1.3rem;
-  font-size: 1.1rem;
-}
-
-
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
-
-
-
-.parallax {
-  /* The image used */
-  background-image: url("img/landing.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  /*background-attachment: fixed;   : FIXED BACKGROUND*/ 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.list-inline-item:not(:last-child) {
-  margin-top: 1.5rem;
-}
-
-.navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0);
-  border-color: rgba(255, 255, 255, 0);
-}
-
-
-.bg-dark {
-  background-color: #212121 !important;
-}
-
-
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-}
-
-
-
-a {
-  font-family: 'Montserrat', sans-serif;
-  color: white; 
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  text-decoration: underline; 
-}
-
-
-a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):focus {
-  outline: 0;
-}
-
 
 h1 {
-  color: black; 
-  font-family: 'Alata', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-p {
-  font-size: 1rem;
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #ed8597; 
 }
 
-
-
-.song-cov {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 100%;
-  width: 100%;
-  object-fit: cover; 
-  justify-content: center;
+h3, a{
+  color: #ed8597;
+  text-decoration:underline;
 }
 
-.song-cov:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 100%;
-  width: 100%;
-  object-fit: cover; 
-  justify-content: center;
-  border: solid 0.2rem white;
-  opacity: 0.7;
-}
-
-
-.btn-dark {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #fff;
+a,
+a:hover,
+a:focus {
+  color: inherit;
   text-decoration: none;
+  transition: all 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
   border-radius: 0;
-  font-size: 0.5rem;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.btn-dark:hover {
-  color: #463F3A;
-  background-color: #fff;
-  border-color: #fff;
+.navbar-btn {
+  box-shadow: none;
+  outline: none !important;
+  border: none;
 }
 
-.btn-dark:focus, .btn-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(70, 63, 58, 0.5);
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #ddd;
+  margin: 40px 0;
 }
 
-.footer {
-  background: #212121;
-  padding-bottom: 1.3rem;
-  padding-top:1.3rem; 
-  width: 100%; 
-  overflow-x: hidden !important;
+/* ---------------------------------------------------
+  SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
 }
 
-.social-link {
-  height: 3.7rem; 
-  width: 3rem;
-  object-fit: cover;
+#sidebar {
+  min-width: 150px;
+  max-width: 150px;
+  background: #f294a4;
+  color: #fff;
+  transition: all 0.3s;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0; 
+  bottom: 0;
 }
 
-
-.copyright {
-  font-family: 'Montserrat', sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+#sidebar.active {
+  margin-left: -250px;
 }
 
-footer {
-   overflow-x: hidden !important;
-   width: auto; 
+#sidebar .sidebar-header {
+  padding: 10px;
+  background: #ed8597;
 }
 
-.social-link:hover {
-  opacity: 0.7;
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #ed8597;
 }
 
-.gallery-img {
-  height: 2rem;
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
 }
 
-.project-title {
-  font-family: 'Alata', sans-serif;
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif; 
+#sidebar ul li a:hover {
+  color: #5e5e5e;
+  background: #fff;
 }
 
-
-.card {
-  padding:0px; 
-  border:0px; 
-  background-color: #F4F3EE;
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #5e5e5e;
 }
 
-a {
-  color: #212121
+a[data-toggle="collapse"] {
+  position: relative;
 }
 
-a:hover {
-  color: #cf9797;
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
 }
 
-#project-img {
-  object-fit:cover;
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
 }
 
-.homelink:hover {
-  color: #cf9797;
+ul.CTAs {
+  padding: 20px;
 }
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #5e5e5e;
+}
+
+a.article,
+a.article:hover {
+  background: #5e5e5e !important;
+  color: #fff !important;
+}
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  padding-left: 170px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  padding-right:50px;
+}
+
+/* ---------------------------------------------------
+  MEDIAQUERIES
+----------------------------------------------------- */
+/* 
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
+} */
