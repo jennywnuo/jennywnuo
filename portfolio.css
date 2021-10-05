@@ -20,9 +20,6 @@ li {
   list-style-type: none;
 }
 
-li, p {
-  padding: 0px; 
-}
 
 h1 {
   font-family: 'Poppins', sans-serif;
