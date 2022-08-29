@@ -1,8 +1,9 @@
-### Hi there 👋
+### 👋🏻 Hi there, I'm Jenny. Here are some quick facts: 
 
-- 📫 How to reach me: jennywnuo@gmail.com
-- 😄 Pronouns: she/her
 - 👩🏻‍💻 Studying: Linguistics and Computer Science @ UCLA 
+- 🎤 
+- 😄 Pronouns: she/her
+- 📫 How to reach me: jennywnuo@gmail.com
 
-### Currently listening: 
+### Check out what I'm currently listening to: 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=jennywnuo&cover_image=true&theme=compact)](https://github.com/kittinan/spotify-github-profile)
