@@ -1,7 +1,7 @@
 ### 👋🏻 Hi there, I'm Jenny. Here are some quick facts: 
 
 - 👩🏻‍💻 Studying: Linguistics and Computer Science @ UCLA 
-- 🎤 
+- 🎤 Writing: song lyrics and code
 - 😄 Pronouns: she/her
 - 📫 How to reach me: jennywnuo@gmail.com
 
