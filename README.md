@@ -2,7 +2,7 @@
 
 - 📚 Studying: Computer Science and Linguistics @ UCLA 
 - 🎤 Writing: song lyrics and code
-- 😄 Pronouns: she/her
+- 😄 Pronouns: (she/her)
 - 📫 How to reach me: jennywnuo@gmail.com
 
 ### 👩🏻‍💻 My Github Stats: 
